@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      ionic custom plugin
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,18 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">ionic custom plugin</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong>ionic capatior custom plugin example</strong>
+    <p>developed by <a target="_blank" rel="noopener noreferrer" href="https://www.devmonster.co.kr">devmonster</a></p>
+    <div>
+      <ion-button (click)="customCall()">custom call</ion-button>
+    </div>
+    <div>
+      <ion-button (click)="customFunction()">custom function</ion-button>
+    </div>
   </div>
 </ion-content>
