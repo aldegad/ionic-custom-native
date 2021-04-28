@@ -1,0 +1,7 @@
+{
+  "name": "custom-native",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
