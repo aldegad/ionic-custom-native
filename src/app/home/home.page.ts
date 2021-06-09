@@ -12,11 +12,12 @@ export class HomePage {
 
   constructor() {}
 
-  customCall() {
-    CustomNativePlugin.customCall({ message: 'CUSTOM MESSAGE' });
+  startBle() {
+    CustomNativePlugin.startBle();
   }
-  async customFunction() {
-    const res = await CustomNativePlugin.customFunction();
-    alert(JSON.stringify(res));
+  async stopBle() {
+    CustomNativePlugin.stopBle();
+    /* const res = await CustomNativePlugin.customFunction();
+    alert(JSON.stringify(res)); */
   }
 }
